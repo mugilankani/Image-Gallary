@@ -1,0 +1,60 @@
+.image-gallary{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 50px;
+  background-color: lightsalmon;
+  padding: 40px 40px;
+  justify-content: center;
+}
+.textt{
+  color: white;
+  text-align: center;
+}
+body{
+  background-color: rgb(0, 0, 0);
+  padding: 50px 50px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+img{
+  height: 200px;
+  width: 300px;
+}
+.logo{
+  height: 60px;
+  width: 60px;
+}
+nav{
+  background-color: black;
+}
+.texts{
+  color: rgb(144, 148, 151);
+}
+.navigation{
+  display: flex;
+  justify-content: space-around;
+
+}
+.searchbar{
+  height: 20px;
+  min-width: 200px;
+  width: 1fr;
+
+}
+.search{
+  flex-grow: 600px;
+  display: flex;
+  justify-content: center;
+  flex: 1fr;
+  align-items: center;
+}
+.logoo{
+  flex: 1fr;
+  justify-self: flex-start;
+}
+.menu{
+
+  flex: 2fr;
+  display: grid ;
+  grid-template-rows:repeat(5,1fr);
+ }
